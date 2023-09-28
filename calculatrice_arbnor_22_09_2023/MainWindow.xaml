@@ -1,0 +1,138 @@
+﻿<Window x:Class="calculatrice_arbnor_22_09_2023.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:calculatrice_arbnor_22_09_2023"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="405">
+    <Grid Background="Black">
+
+        <Grid.ColumnDefinitions>
+
+            <!-- Cette partie du code c'est pour definir les touches dans différentes place sur la calculatrice-->
+            <ColumnDefinition Width="*"/>
+
+            <ColumnDefinition Width="*"/>
+
+            <ColumnDefinition Width="*"/>
+
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+
+
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="*"/>
+
+            <RowDefinition Height="*"/>
+
+            <RowDefinition Height="*"/>
+
+            <RowDefinition Height="*"/>
+
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+
+
+        <Grid.Resources>
+
+            <Style TargetType="{x:Type Button}">
+
+                <Setter Property="Margin" Value="10"/>
+
+                <Setter Property="Background" Value="LightGray"/>
+
+                <Setter Property="FontSize" Value="38"/>
+
+                <Style.Resources>
+                    <!-- Cette partie du code permet de modifier la forme des boutons pour les arrondirs par exemple -->
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="40">
+
+                        </Setter>
+                    </Style>
+                </Style.Resources>
+            </Style>
+
+            <Style x:Key="MyStyle" TargetType="{x:Type Control}">
+
+                <Setter Property="Margin" Value="10"/>
+
+                <Setter Property="Background" Value="Orange"/>
+
+                <Setter Property="FontSize" Value="38"/>
+
+                <Style.Resources>
+                    <!-- Cette partie du code permet de modifier la forme des boutons orange pour les arrondirs  -->
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="40">
+
+                        </Setter>
+                    </Style>
+                </Style.Resources>
+
+            </Style>
+
+        </Grid.Resources>
+
+
+
+        <TextBox Grid.Row="0" Grid.ColumnSpan="4" Name="TB_Dispay"  BorderBrush="#FF2E57D4">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                    <GradientStop Color="#FF426825" Offset="0.927"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+
+        <!-- Cette partie du code permet de crée les boutons de la calculatrice -->
+        <Button Grid.Row="1" Grid.Column="0" Name="BTN_1" Content="1" Click="BTN_1_Click"></Button>
+
+        <Button Grid.Row="1" Grid.Column="1" Name="BTN_2" Content="2" Click="BTN_2_Click"></Button>
+
+        <Button Grid.Row="1" Grid.Column="2" Name="BTN_3" Content="3" Click="BTN_3_Click"></Button>
+
+        <Button Grid.Row="1" Grid.Column="3" Name="BTN_Plus" Style="{StaticResource MyStyle}" Content="+"></Button>
+
+        <Button Grid.Row="2" Grid.Column="0" Name="BTN_4" Content="4" Click="BTN_4_Click"></Button>
+
+        <Button Grid.Row="2" Grid.Column="1" Name="BTN_5" Content="5" Click="BTN_5_Click"></Button>
+
+        <Button Grid.Row="2" Grid.Column="2" Name="BTN_6" Content="6"></Button>
+
+        <Button Grid.Row="2" Grid.Column="3" Name="BTN_Moins" Style="{StaticResource MyStyle}" Content="-"></Button>
+
+        <Button Grid.Row="3" Grid.Column="0" Name="BTN_7" Content="7"></Button>
+
+        <Button Grid.Row="3" Grid.Column="1" Name="BTN_8" Content="8"></Button>
+
+        <Button Grid.Row="3" Grid.Column="2" Name="BTN_9" Content="9"></Button>
+
+        <Button Grid.Row="3" Grid.Column="3" Name="BTN_Fois" Content="*" Style="{StaticResource MyStyle}"></Button>
+
+        <Button Grid.Row="4" Grid.Column="0" Name="BTN_0" Content="0"></Button>
+
+        <Button Grid.Row="4" Grid.Column="1" Name="BTN_CLR" Content="CLR" Background="Orange"></Button>
+
+        <Button Grid.Row="4" Grid.Column="2" Name="BTN_Egale" Content="=" Background="Orange" Margin="5,10,5,10"></Button>
+
+        <Button Grid.Row="4" Grid.Column="3" Name="BTN_Diviser" Content="/" Style="{StaticResource MyStyle}"></Button>
+
+
+
+
+
+
+
+    </Grid>
+
+
+
+</Window>

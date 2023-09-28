@@ -1,0 +1,15 @@
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\bin\Debug\calculatrice_arbnor_22_09_2023.exe.config
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\bin\Debug\calculatrice_arbnor_22_09_2023.exe
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\bin\Debug\calculatrice_arbnor_22_09_2023.pdb
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\obj\Debug\calculatrice_arbnor_22_09_2023.csproj.AssemblyReference.cache
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\obj\Debug\MainWindow.g.cs
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\obj\Debug\App.g.cs
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\obj\Debug\calculatrice_arbnor_22_09_2023_MarkupCompile.cache
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\obj\Debug\calculatrice_arbnor_22_09_2023_MarkupCompile.lref
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\obj\Debug\MainWindow.baml
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\obj\Debug\calculatrice_arbnor_22_09_2023.g.resources
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\obj\Debug\calculatrice_arbnor_22_09_2023.Properties.Resources.resources
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\obj\Debug\calculatrice_arbnor_22_09_2023.csproj.GenerateResource.cache
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\obj\Debug\calculatrice_arbnor_22_09_2023.csproj.CoreCompileInputs.cache
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\obj\Debug\calculatrice_arbnor_22_09_2023.exe
+C:\Users\SLAB73\OneDrive - Saint Michel\Calculatrice TP avec SUMBRAMANI\calculatrice_arbnor_22_09_2023\calculatrice_arbnor_22_09_2023\obj\Debug\calculatrice_arbnor_22_09_2023.pdb
